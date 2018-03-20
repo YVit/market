@@ -1,0 +1,8 @@
+[alias]
+   co = checkout
+[D[D[D[Dci = commit
+[C[C[Cst = status
+   br = branch
+   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+   type = cat-file -t
+   dump = cat-file -p
